@@ -1,0 +1,24 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: kmix-disable-autostart
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/kmix-disable-autostart
+Vcs-Browser: https://github.com/Whonix/kmix-disable-autostart
+Vcs-Git: https://github.com/Whonix/kmix-disable-autostart.git
+Standards-Version: 3.9.4
+
+Package: kmix-disable-autostart
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Deactivating kmix autostart.
+ Deactivating kmix autostart. Workaround to fix Klipper (and others?)
+ autostart. Working around bug
+ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630617 by using
+ workaround http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630617#79.
