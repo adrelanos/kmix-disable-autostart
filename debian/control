@@ -18,7 +18,8 @@ Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Deactivates kmix autostart
- Deactivates kmix autostart. Workaround to fix Klipper (and others?)
- autostart. Working around bug
+ A metapackage, that deactivates kmix autostart.
+ .
+ Workaround to fix Klipper (and others?) autostart. Working around bug
  http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630617 by using
  workaround http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630617#79.
