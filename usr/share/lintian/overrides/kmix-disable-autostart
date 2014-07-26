@@ -1,0 +1,2 @@
+# config-package-dev will use that folder for hide operation.
+kmix-disable-autostart: package-contains-empty-directory *
